@@ -1,0 +1,37 @@
+.home {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.emoji-picker, .color-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.emoji-box {
+  margin: 0 20px;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  border-radius: 10px;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
